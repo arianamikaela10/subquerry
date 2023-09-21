@@ -1,0 +1,229 @@
+
+*{ /*general style*/
+    font-family: sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    box-sizing: border-box;}
+ 
+ /* HOME */
+  .header{
+    background-color: #2F5DBC;
+    padding: 70px;
+    text-align: center;
+    color: #a7c4ff;}
+ 
+ .header h1{
+    font-size: 60px;
+    color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+ 
+ .nav {/* background of navigational bar*/
+    overflow: hidden;
+    background-color: #333;;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;}
+ 
+.nav .active {
+    background-color: #111;
+    color:#F9F9F9;}
+    
+ .nav a { /* Style the nav */
+    float: left;
+    display: block;
+    color: #a2a2a2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+ 
+ .nav a.r {/* Right-aligned link */
+    float: right;}
+  
+ .nav a:hover { /* Change color on hover */
+    background-color: #2F5DBC;
+    color: #F9F9F9;}
+  
+ .container{ /*contents of pages*/
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;}
+  
+ .container .content{
+    text-align: center;}
+  
+ .container .content h3{
+    font-size: 25px;
+    color:#333;}
+  
+ .container .content h3 span{
+    background: crimson;
+    color:#fff;
+    border-radius: 5px;
+    padding:0 15px;}
+  
+ .container .content h1{
+    font-size: 50px;
+    color:#333;}
+  
+ .container .content h1 span{
+    color:crimson;}
+  
+ .container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;}
+  
+ .container .content .btn{
+    display: inline-block;
+    padding:10px 30px;
+    font-size: 20px;
+    background: #333;
+    color:#fff;
+    margin:0 5px;
+    text-transform: capitalize;}
+  
+ .container .content .btn:hover{
+    background: crimson;}
+ 
+ .form-container{/*styling form*/
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    padding-bottom: 150px;
+    background: #DBDBD6;}
+  
+ .form-container form{
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #F9F9F9;
+    text-align: center;
+    width: 700px;}
+  
+ .form-container form h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#333;}
+  
+ .form-container form input,
+ .form-container form select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 20px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;}
+  
+ .form-container form .form-btn{
+    background: #2f5ebc43;
+    color:#2F5DBC;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;}
+  
+ .form-container form .form-btn:hover{
+    background: #2F5DBC;
+    color:#fff;}
+  
+ .form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color:#333;}
+  
+ .form-container form p a{
+    color:crimson;}
+  
+ .form-container form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: rgba(220, 20, 60, 0.784);
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;}
+ 
+ .form-container .msg{/*messages after input*/
+    background:  #D55E2D;
+    margin:0px 0;
+    display: block;
+    background: #D55E2D;
+    color:#fff;
+    font-size: 15px;
+    padding:10px;
+    text-align: center;}
+  
+ .record {
+    background: #DBDBD6;}
+  
+ .record h3{
+    margin:0px 0;
+    display: block;
+    background: #D55E2D;
+    color:#fff;
+    font-size: 18px;
+    padding:10px;
+    text-align: center;}
+ 
+ table { /*table style*/
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;}
+ 
+ td, th {
+    border: 1px solid #b7c0d3;
+    text-align: center;
+    padding: 8px;}
+    
+tr:nth-child(even) {
+  background-color: #e0ebff;}
+ 
+ .tab{
+    min-height: 100vh;
+    padding:20px 20px;
+    color:#444;
+    }
+ 
+ .search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;}
+ 
+ .search{
+    box-sizing: border-box;
+    display: block;
+    margin:auto;
+    max-width:500px;}
+ 
+ .search .srch-btn{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #D55E2D;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-left: none;
+ 
+    cursor: pointer;}
+     
+ .search .srch-btn:hover {
+    background: #2F5DBC;}
+     
+ .search::after {
+    content: "";
+    clear: both;
+    display: table;}
+ 
